@@ -1,0 +1,11 @@
+Pages\ForgotPasswordPage.class
+Steps\RunnerTest.class
+Steps\Common.class
+Steps\IncorrectLogin.class
+Steps\ForgotPassword.class
+Pages\HomePage.class
+Pages\CommonPage.class
+Steps\Register.class
+Steps\Login.class
+Pages\MyAccountPage.class
+Pages\LoginPage.class

@@ -1,0 +1,444 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8295685070,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 277165,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "As a user I want to reset my Password",
+        "description": "",
+        "id": "forgot-password;as-a-user-i-want-to-reset-my-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9269177692,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Home Page",
+            "match": {
+              "location": "Common.iAmOnTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 447876545,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see a Logo Banner",
+            "match": {
+              "location": "Common.iSeeALogoBanner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5160476509,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click SignIn Button",
+            "match": {
+              "location": "Login.i_click_SignIn_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1238610589,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click forgot password Link",
+            "match": {
+              "location": "ForgotPassword.iClickForgotPasswordLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 455457732,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter user email \"bennaroh@gmail.com\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bennaroh@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.iEnterUserEmailDetails(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1002388257,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click retrieve password button",
+            "match": {
+              "location": "ForgotPassword.iClickRetrievePasswordButton()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Forgot Password",
+    "description": "",
+    "id": "forgot-password",
+    "keyword": "Feature",
+    "uri": "feature/ForgotPassword.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ForgotPassword"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 196827,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 182991,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "As a user I want to see error message when I log in incorrectly",
+        "description": "",
+        "id": "invalid-login;as-a-user-i-want-to-see-error-message-when-i-log-in-incorrectly;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 117673103,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {\"code\":-32601,\"message\":\"\u0027Network.deleteCookie\u0027 wasn\u0027t found\"}\n  (Session info: chrome\u003d62.0.3202.94)\n  (Driver info: chromedriver\u003d2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform\u003dWindows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 101 milliseconds\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027Ben-PC\u0027, ip: \u0027192.168.1.64\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_144\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir\u003dC:\\Users\\ben\\AppData\\Local\\Temp\\scoped_dir5112_15387}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, hasTouchScreen\u003dfalse, version\u003d62.0.3202.94, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 98913d49a071016dc3a8a9c706bf39be\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:730)\r\n\tat Steps.Common.iAmOnTheHomePage(Common.java:25)\r\n\tat ✽.Given I am on the Home Page(feature/IncorrectLogin.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I am on the Home Page",
+            "match": {
+              "location": "Common.iAmOnTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I see a Logo Banner",
+            "match": {
+              "location": "Common.iSeeALogoBanner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I click SignIn Button",
+            "match": {
+              "location": "Login.i_click_SignIn_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I enter user email \"bennaroh@gmail.com\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bennaroh@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.iEnterUserEmailDetails(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I enter user password \"\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 23
+                }
+              ],
+              "location": "Login.iEnterUserPasswordDetails(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click the Login Button",
+            "match": {
+              "location": "Login.iClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I see an error \"Password is required\" message details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password is required",
+                  "offset": 16
+                }
+              ],
+              "location": "IncorrectLogin.iSeeAnErrorMessageDetails(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@InvalidLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Invalid Login",
+    "description": "",
+    "id": "invalid-login",
+    "keyword": "Feature",
+    "uri": "feature/IncorrectLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@InvalidLogin"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 166924,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 153534,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "As a user I want to Login Successfully",
+        "description": "",
+        "id": "login;as-a-user-i-want-to-login-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 85811672,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {\"code\":-32601,\"message\":\"\u0027Network.deleteCookie\u0027 wasn\u0027t found\"}\n  (Session info: chrome\u003d62.0.3202.94)\n  (Driver info: chromedriver\u003d2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform\u003dWindows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 94 milliseconds\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027Ben-PC\u0027, ip: \u0027192.168.1.64\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_144\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir\u003dC:\\Users\\ben\\AppData\\Local\\Temp\\scoped_dir5112_15387}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, hasTouchScreen\u003dfalse, version\u003d62.0.3202.94, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 98913d49a071016dc3a8a9c706bf39be\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:730)\r\n\tat Steps.Common.iAmOnTheHomePage(Common.java:25)\r\n\tat ✽.Given I am on the Home Page(feature/Login.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I am on the Home Page",
+            "match": {
+              "location": "Common.iAmOnTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I see a Logo Banner",
+            "match": {
+              "location": "Common.iSeeALogoBanner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I click SignIn Button",
+            "match": {
+              "location": "Login.i_click_SignIn_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I enter user email \"bennaroh@gmail.com\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bennaroh@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.iEnterUserEmailDetails(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I enter user password \"benedith12\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "benedith12",
+                  "offset": 23
+                }
+              ],
+              "location": "Login.iEnterUserPasswordDetails(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click the Login Button",
+            "match": {
+              "location": "Login.iClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "Login.iShouldBeLoggedInSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I sign out",
+            "match": {
+              "location": "Login.iSignOut()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "feature/Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  }
+]

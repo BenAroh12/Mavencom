@@ -1,0 +1,263 @@
+[1.404][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "desiredCapabilities": {
+         "browserName": "chrome",
+         "chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "platform": "ANY",
+         "version": ""
+      },
+      "requiredCapabilities": {
+
+      }
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   },
+   "requiredCapabilities": {
+
+   }
+}
+[1.419][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1.419][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1.466][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-infobars --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --ignore-certificate-errors --load-component-extension="C:\Users\ben\AppData\Local\Temp\scoped_dir5112_5309\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12720 --safebrowsing-disable-auto-update --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\ben\AppData\Local\Temp\scoped_dir5112_15387" data:,
+[2.904][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[3.957][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)",
+      "userDataDir": "C:\\Users\\ben\\AppData\\Local\\Temp\\scoped_dir5112_15387"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "~~~": "..."
+}
+[4.035][INFO]: COMMAND SetTimeout {
+   "ms": 30000,
+   "type": "implicit"
+}
+[4.035][INFO]: RESPONSE SetTimeout
+[4.362][INFO]: COMMAND DeleteAllCookies {
+
+}
+[4.362][INFO]: Waiting for pending navigations...
+[4.378][INFO]: Done waiting for pending navigations. Status: ok
+[5.477][INFO]: Waiting for pending navigations...
+[5.477][INFO]: Done waiting for pending navigations. Status: ok
+[5.477][INFO]: RESPONSE DeleteAllCookies
+[5.493][INFO]: COMMAND Navigate {
+   "url": "http://automationpractice.com/"
+}
+[5.493][INFO]: Waiting for pending navigations...
+[5.493][INFO]: Done waiting for pending navigations. Status: ok
+[6.852][INFO]: Waiting for pending navigations...
+[13.320][INFO]: Done waiting for pending navigations. Status: ok
+[13.320][INFO]: RESPONSE Navigate
+[13.547][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "header_logo"
+}
+[13.547][INFO]: Waiting for pending navigations...
+[13.575][INFO]: Done waiting for pending navigations. Status: ok
+[13.624][INFO]: Waiting for pending navigations...
+[13.661][INFO]: Done waiting for pending navigations. Status: ok
+[13.662][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6191500930616076-1"
+}
+[13.689][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6191500930616076-1"
+}
+[13.689][INFO]: Waiting for pending navigations...
+[13.700][INFO]: Done waiting for pending navigations. Status: ok
+[13.780][INFO]: Waiting for pending navigations...
+[13.789][INFO]: Done waiting for pending navigations. Status: ok
+[13.789][INFO]: RESPONSE IsElementDisplayed true
+[13.814][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Sign in"
+}
+[13.815][INFO]: Waiting for pending navigations...
+[13.817][INFO]: Done waiting for pending navigations. Status: ok
+[13.843][INFO]: Waiting for pending navigations...
+[13.843][INFO]: Done waiting for pending navigations. Status: ok
+[13.843][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6191500930616076-2"
+}
+[13.859][INFO]: COMMAND ClickElement {
+   "id": "0.6191500930616076-2"
+}
+[13.859][INFO]: Waiting for pending navigations...
+[13.859][INFO]: Done waiting for pending navigations. Status: ok
+[14.048][INFO]: Waiting for pending navigations...
+[16.940][INFO]: Done waiting for pending navigations. Status: ok
+[16.941][INFO]: RESPONSE ClickElement
+[18.954][INFO]: COMMAND ExecuteScript {
+   "args": [ "" ],
+   "script": "window.scrollBy(0,250)"
+}
+[18.954][INFO]: Waiting for pending navigations...
+[18.954][INFO]: Done waiting for pending navigations. Status: ok
+[19.047][INFO]: Waiting for pending navigations...
+[19.059][INFO]: Done waiting for pending navigations. Status: ok
+[19.059][INFO]: RESPONSE ExecuteScript null
+[19.110][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Forgot your password?"
+}
+[19.110][INFO]: Waiting for pending navigations...
+[19.126][INFO]: Done waiting for pending navigations. Status: ok
+[19.219][INFO]: Waiting for pending navigations...
+[19.235][INFO]: Done waiting for pending navigations. Status: ok
+[19.235][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.19202925582565022-1"
+}
+[19.266][INFO]: COMMAND ClickElement {
+   "id": "0.19202925582565022-1"
+}
+[19.266][INFO]: Waiting for pending navigations...
+[19.266][INFO]: Done waiting for pending navigations. Status: ok
+[19.401][INFO]: Waiting for pending navigations...
+[20.187][INFO]: Done waiting for pending navigations. Status: ok
+[20.188][INFO]: RESPONSE ClickElement
+[20.219][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "email"
+}
+[20.219][INFO]: Waiting for pending navigations...
+[20.223][INFO]: Done waiting for pending navigations. Status: ok
+[20.257][INFO]: Waiting for pending navigations...
+[20.260][INFO]: Done waiting for pending navigations. Status: ok
+[20.260][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8015022052355703-1"
+}
+[20.262][INFO]: COMMAND TypeElement {
+   "id": "0.8015022052355703-1",
+   "value": [ "bennaroh@gmail.com" ]
+}
+[20.262][INFO]: Waiting for pending navigations...
+[20.262][INFO]: Done waiting for pending navigations. Status: ok
+[20.641][INFO]: Waiting for pending navigations...
+[20.646][INFO]: Done waiting for pending navigations. Status: ok
+[20.647][INFO]: RESPONSE TypeElement
+[20.686][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "#form_forgotpassword > fieldset > p > button > span"
+}
+[20.686][INFO]: Waiting for pending navigations...
+[20.688][INFO]: Done waiting for pending navigations. Status: ok
+[20.710][INFO]: Waiting for pending navigations...
+[20.710][INFO]: Done waiting for pending navigations. Status: ok
+[20.710][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8015022052355703-2"
+}
+[20.710][INFO]: COMMAND ClickElement {
+   "id": "0.8015022052355703-2"
+}
+[20.710][INFO]: Waiting for pending navigations...
+[20.710][INFO]: Done waiting for pending navigations. Status: ok
+[20.899][INFO]: Waiting for pending navigations...
+[21.649][INFO]: Done waiting for pending navigations. Status: ok
+[21.649][INFO]: RESPONSE ClickElement
+[21.724][INFO]: COMMAND DeleteAllCookies {
+
+}
+[21.725][INFO]: Waiting for pending navigations...
+[21.727][INFO]: Done waiting for pending navigations. Status: ok
+[21.777][INFO]: Waiting for pending navigations...
+[21.777][INFO]: Done waiting for pending navigations. Status: ok
+[21.777][INFO]: RESPONSE DeleteAllCookies unknown error: unhandled inspector error: {"code":-32601,"message":"'Network.deleteCookie' wasn't found"}
+  (Session info: chrome=62.0.3202.94)
+[21.966][INFO]: COMMAND DeleteAllCookies {
+
+}
+[21.966][INFO]: Waiting for pending navigations...
+[21.971][INFO]: Done waiting for pending navigations. Status: ok
+[21.978][INFO]: Waiting for pending navigations...
+[21.981][INFO]: Done waiting for pending navigations. Status: ok
+[21.981][INFO]: RESPONSE DeleteAllCookies unknown error: unhandled inspector error: {"code":-32601,"message":"'Network.deleteCookie' wasn't found"}
+  (Session info: chrome=62.0.3202.94)
